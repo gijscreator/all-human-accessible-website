@@ -1,3 +1,6 @@
+/* font family van de opdrachtgever */ 
+
+
 /* box-sizing*/
 *,
 *::before,
@@ -5,17 +8,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'arial';
   color: white;
 }
 
 html {
   background-color: #224455;
-}
-
-/* add padding for top and bottom bar */
-main {
-
 }
 
 ul,
@@ -293,14 +291,6 @@ ul.images-list {
     background: #fff;
     border-radius: 20px;
     height: 10vh;
-    
-    @media (min-width: 598px) {
-      grid-template-columns: 20vw 1fr;
-    }
-
-    @media (min-width: 1000px) {
-      grid-template-columns: 15vw 1fr;     
-    } 
 
     img {
       height: 100%;               
@@ -412,41 +402,41 @@ footer {
 
 /* Zoekpagina */
 .main-zoeken {
-  section {
+
+  article {
     display: flex;
     flex-direction: column;
     padding: 20px 0px;
+  }
 
-    h1 {
-      color: white;
-      height: 8vh;
-      text-align: center;
-    }
+  figure:nth-of-type(1) {
+    display: flex;
+    gap: 20px;
+  }
 
-    label {
-      display: none;
-    }
+  label {
+    display: none;
+  }
 
-    input {
-      margin: 0 auto;
-      background-color: white;
+  input {
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    width: 80vw;
+    max-width: 80vw;
+    border-radius: 20px;
+    min-height: 20px;
+    height: 6vh;
+
+    &::placeholder {
+      font-size: .8rem;
+      padding-left: 10%;
       color: black;
-      font-family: sans-serif;
-      width: 80vw;
-      max-width: 80vw;
-      border-radius: 20px;
-      min-height: 20px;
-      height: 6vh;
+    }
 
-      &::placeholder {
-        font-size: .8rem;
-        padding-left: 10%;
-        color: black;
-      }
-
-      &::-webkit-textfield-decoration-container {
-        padding-left: 10%;
-      }
+    &::-webkit-textfield-decoration-container {
+      padding-left: 10%;
     }
   }
 }
@@ -485,10 +475,6 @@ footer {
           width: 25px;
           height: auto;
         }
-        
-        a {
-
-        }
       }
     }
   }
@@ -497,7 +483,6 @@ footer {
 /* Detailpagina main */ 
 .detail-page {
 
-  
   article {
     display: flex;
     align-items: center;
@@ -559,4 +544,68 @@ footer {
 }
 
 
-/* Detailpagina main */ 
+/* Groepspagina header */ 
+
+.groups-header {
+  display: grid;
+
+  nav {
+    width: 90vw;
+    justify-self: center;
+    ul {
+      grid-template-columns: 1fr auto 1fr;
+      width: 100%;
+
+      li:nth-of-type(1) {
+        grid-column: 2;
+      }
+
+      li:nth-of-type(2) {
+        grid-column: 3;
+        justify-self: end;
+      }
+
+      p {
+        color: #224455;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+
+/* Groepspagina main */ 
+
+.your-groups {
+  
+  section {
+    ul {
+      display: flex;
+
+      li {
+        display: flex;
+        justify-content: space-between;
+
+        article {
+          flex-direction: column;
+          
+          h4 {
+
+          }
+
+          p {
+            
+          }
+        }
+        
+        ul {
+
+          li {
+            
+          }
+        }
+      }
+    }
+  }
+}
