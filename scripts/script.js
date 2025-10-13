@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (figureElement) {
         figureElement.insertAdjacentHTML(
           "beforeend",
-          `<p style="margin-top:12px;">Foto niet gevonden.</p>`
+          `<p>Foto niet gevonden.</p>`
         );
       }
     }
