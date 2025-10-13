@@ -59,7 +59,7 @@ header  {
   position: sticky;
   top: 0;
   width: 100%;
-  height: 8vh;
+  height: 6vh;
   min-height: 60px;
   align-items: center;
   padding: 5px;
@@ -296,7 +296,6 @@ ul.images-list {
     
     @media (min-width: 598px) {
       grid-template-columns: 20vw 1fr;
-      height: 100px;
     }
 
     @media (min-width: 1000px) {
@@ -304,9 +303,12 @@ ul.images-list {
     } 
 
     img {
-      border-radius: 20px 0px 0px 20px;
-      height: 10vh;
-      max-width:30vw;
+      height: 100%;               
+      aspect-ratio: 1 / 1;        
+      width: auto;               
+      object-fit: cover;     
+      border-radius: 20px 0 0 20px;
+      display: block;   
     }
     
     article {
@@ -332,14 +334,6 @@ ul.images-list {
           width: 25px;
           height: 25px;
         }
-      }
-    }
-
-    img {
-      width: 19vh;
-
-      @media (min-width: 798px) {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
       }
     }
 
