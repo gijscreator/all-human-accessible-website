@@ -494,7 +494,7 @@ footer {
       height: auto;
     }
 
-    h3 {
+    h3 { 
       color: white;
     }
   }
@@ -533,7 +533,6 @@ footer {
       flex-direction: column;
     }
 
-
     p {
       font-size: .8rem;
       background-color: rgba(0, 255, 51, 0.60);
@@ -552,57 +551,80 @@ footer {
   nav {
     width: 90vw;
     justify-self: center;
-    ul {
-      grid-template-columns: 1fr auto 1fr;
-      width: 100%;
+  }
 
-      li:nth-of-type(1) {
-        grid-column: 2;
-      }
+  ul {
+    grid-template-columns: 1fr auto 1fr;
+    width: 100%;
 
-      li:nth-of-type(2) {
+    li:nth-of-type(1) {
+      grid-column: 2;
+    }
+
+    li:nth-of-type(2) {
         grid-column: 3;
         justify-self: end;
       }
-
-      p {
-        color: #224455;
-        font-size: 1.2rem;
-        font-weight: 600;
-      }
     }
+  
+  p {
+    color: #224455;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 }
 
 
 /* Groepspagina main */ 
 
-.your-groups {
+#your-groups {
   
   section {
+    margin-top: 20px;
+    
     ul {
       display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       li {
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        border-bottom: solid white 1px;
+        padding: 10px;
+
+        svg path {   
+          fill: white;
+        }
+
+        svg {
+          width: 25px;
+          height: auto;
+
+        :nth-child(1) {
+            width: 15px;
+            height: auto;
+          }
+        }
 
         article {
           flex-direction: column;
           
+          
           h4 {
-
+            color:white;
           }
 
           p {
-            
+            color:white;
           }
         }
         
-        ul {
-
-          li {
-            
+        & ul {
+          flex-direction: row;
+          & li {
+            border-bottom: none white 1px;
           }
         }
       }
