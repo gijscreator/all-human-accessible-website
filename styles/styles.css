@@ -9,12 +9,19 @@
   margin: 0;
   padding: 0;
   font-family: 'arial';
-  color: white;
 }
 
 html {
-  background-color: #224455;
+  color-scheme: light dark;
+  background-color: light-dark(white,#224455);
+  color: light-dark(#224455,white);
 }
+
+header, footer {
+  background-color: light-dark(#224455,white);
+  color: light-dark(white,#224455);
+}
+
 
 ul,
 li {
@@ -37,7 +44,6 @@ img {
 }
 
 .sr-only {
-  position: absolute;
   position: absolute !important;
   width: 1px !important;
   height: 1px !important;
@@ -52,7 +58,7 @@ img {
 /* HOME */
 /* Header */
 header  {
-  background-color: white;
+
   border-radius: 0px 0px 20px 20px;
   position: sticky;
   top: 0;
@@ -593,19 +599,20 @@ footer {
         width: 100%;
         border-bottom: solid white 1px;
         padding: 10px;
+        gap: 2vw;
 
         svg path {   
           fill: white;
         }
 
         svg {
-          width: 25px;
+          width: 20px;
           height: auto;
+        }
 
-        :nth-child(1) {
-            width: 15px;
-            height: auto;
-          }
+        .snappthis-logo {
+          width: 8vw;
+          height: auto;
         }
 
         article {
@@ -619,11 +626,14 @@ footer {
           p {
             color:white;
           }
+          .active {
+            color:rgba(41, 255, 80, 1);
+          }
         }
         
-        & ul {
+        ul {
           flex-direction: row;
-          & li {
+          li {
             border-bottom: none white 1px;
           }
         }
