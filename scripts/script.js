@@ -68,8 +68,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <figure>
           <img src="${image.src}" alt="${image.alt}" loading="lazy">
           <article>
-            <h4>${image.name}</h4>
-            <h5>${image.location}</h5>
+            <p>${image.name}</p>
+            <p>${image.location}</p>
           </article>
         </figure>
       </li>

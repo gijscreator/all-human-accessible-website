@@ -306,7 +306,7 @@ ul.images-list {
       flex-direction: column;
       gap: 10px;
 
-      h5 {   
+      p {   
         color: #224455;
       }
     }
