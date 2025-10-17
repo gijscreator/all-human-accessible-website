@@ -19,8 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Get page elements ---
   const toggleButton = document.querySelector(".grid-list-toggle");
   const galleryList  = document.querySelector("article.images ul");
-
-  // --- Detail page elements ---
   const detailImage     = document.getElementById("detail-image");
   const detailNameLabel = document.getElementById("detail-name");
   const detailLocation  = document.getElementById("detail-location");
