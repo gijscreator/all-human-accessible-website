@@ -25,7 +25,12 @@ header, footer {
 
 ul,
 li {
+  text-decoration: none;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2 {
@@ -381,12 +386,14 @@ footer {
         justify-content: center;
         flex-direction: column;
 
-        figure {
+        a {
           display: flex;
-          justify-content: center;
+          flex-direction: column;
+          place-items: center;
+
         }
 
-        figure>svg {
+        a>svg {
           width: 25px;
           height: 25px;
           aspect-ratio: 1/1;
