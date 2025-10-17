@@ -1,9 +1,16 @@
 /* font family van de opdrachtgever */ 
+  @font-face {
+    font-family: 'Bariol';
+      src: url('/assets/Bariol_Bold.otf') format('opentype');
+  }
 
-@font-face {
-  font-family: 'Bariol';
-    src: url('/assets/Bariol_Bold.otf') format('opentype');
+
+:root {
+
+  --main-font: 'bariol';
+
 }
+
 
 /* box-sizing*/
 *,
@@ -12,13 +19,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Bariol';
+  font-family: var(--main-font);
 }
 
 html {
   color-scheme: light dark;
   background-color: light-dark(white,#224455);
   color: light-dark(#224455,white);
+  
 }
 
 header, footer {
