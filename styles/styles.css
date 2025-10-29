@@ -862,3 +862,32 @@ footer {
     font-family: var(--reg-font);
   }
 }
+
+/* Settings Header */ 
+
+
+/* Settings Main */ 
+
+.settings-main {
+  ul {
+    width: 100vw;
+    display: grid;
+    
+
+
+    li {
+      width: 100vw;
+      align-content: center;;
+      height: 5vh;
+      border-bottom: 1px solid white;
+      
+    }
+
+    p {
+      color: white;
+      margin-left: 2vw;
+      text-align: left;
+    }
+  }
+}
+
