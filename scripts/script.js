@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // --- Array of images ---
   const images = [
-    { src: "assets/handgeschaaft.jpg", alt: "Handgeschaaft",  name: "Anna van Veen",  location: "Amsterdam Oost" },
+    { src: "assets/handgeschaaft.jpg",  alt: "Handgeschaaft",  name: "Anna van Veen",  location: "Amsterdam Oost" },
     { src: "assets/autofiat.jpg",       alt: "Auto Fiat",      name: "Bram de Groot", location: "Rotterdam Centrum" },
     { src: "assets/bikerental.jpg",     alt: "Bike rental",    name: "Clara Meijer",  location: "Utrecht Zuid" },
     { src: "assets/fietaanpaal.jpg",    alt: "Fiets aan paal", name: "Daan Visser",   location: "Den Haag" },

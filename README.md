@@ -1,25 +1,51 @@
-# Accessible Website
+# Snappthis
 
-Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
+## Inhoud:
 
-De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/INSTRUCTIONS.md)
+* Beschrijving
+* Design
+* Kenmerken
+* Accesabilty
+* Gebruik
+* Resultaat
 
-## Inhoudsopgave
+## Beschrijving 
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+Ik heb voor snappthis een website gemaakt waar gebruikers kunnen inloggen, foto's van groepen en themas kan bekijken 
+De pagina is responsive en is Mobile first ontworpen en gemaakt met semantische HTML en geneste (native) CSS-nesting
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+SnappThis is een idee van Marije, oud-kunstacademie student en docent bij de HvA.
+Haar doel is om te mensen inspireren door foto’s in groepen makkelijk te kunnen delen.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Bronnen
+De website is hier te vinden: https://gijscreator.github.io/the-client-website/home.html
 
-## Licentie
-This project is licensed under the terms of the [MIT license](./LICENSE).
+# Design 
+
+## Mobiel design
+
+### Homepagina
+
+<img width="402" height="874" alt="image" src="https://github.com/user-attachments/assets/08724c0a-695c-462f-a351-d6735a098399" />
+<img width="402" height="874" alt="image" src="https://github.com/user-attachments/assets/fd9419b4-24ed-493c-9214-d19e942ab0d9" />
+
+<br/>
+
+# Zoekpagina
+
+<br/>
+
+<img width="402" height="874" alt="image" src="https://github.com/user-attachments/assets/b13a6ddb-3169-4078-bd90-fa6d417403e2" />
+<img width="402" height="874" alt="image" src="https://github.com/user-attachments/assets/bcddf744-5774-46e8-87f3-6d00be5d6d61" />
+
+## Desktop design
+
+### Homepagina
+
+<img width="1728" height="1117" alt="Group 11" src="https://github.com/user-attachments/assets/db0f3f9f-ae60-4b12-80f4-3bc4919108dc" />
+
+<br/>
+
+# Zoekpagina
+
+<br/>
