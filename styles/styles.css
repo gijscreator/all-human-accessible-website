@@ -372,7 +372,7 @@ footer {
   }
 
   nav {
-    
+
     ul {
       display: grid;
       grid-template-rows: repeat(1, 1fr);
@@ -677,6 +677,7 @@ footer {
     li:nth-of-type(2) {
         grid-column: 3;
         justify-self: end;
+        
       }
     }
 
@@ -684,12 +685,20 @@ footer {
       fill: #224455;
     }
   
+  a {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+  
   p {
     color: #224455;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 600;
+    text-align: center;
   }
 }
+
 
 /* My-Account main */ 
 
