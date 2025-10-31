@@ -635,7 +635,11 @@ footer {
         font-family: var(--reg-font)
       }
       .active {
-        color:rgba(41, 255, 80, 1);
+        background-color: var(--background-sticky-elements);
+        color: var(--text-color-dark);
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-family: var(--main-font);
       }
     }
     
