@@ -243,7 +243,7 @@ header  {
 
 /* Main */
 
-.main-home {
+.main-home, .snappmap {
 
   .inline-group {
     padding: 20px;
@@ -878,27 +878,47 @@ h2 {
 
 /* ---------------------------------Snappmap-----------------------------------*/
 
+.snappmap {
 
-.capture-wrapper {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .capture-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  .capture-button {
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
-    background-color: var(--active-svg);
-    border: none;
+    .capture-button {
+      width: 33vw;
+      height: 33vw;
+      border-radius: 50%;
+      background-color: var(--active-svg);
+      border: none;
+    }
+
+    svg {
+      width: 13vw;
+      height: auto
+    }
+
+    h3 {
+      font-size: var(--font-size-headings)
+    }
   }
 
-  h3 {
-    font-size: var(--font-size-headings)
+  .group-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  svg:not(.capture) {
+    width: 20px;
+
+    path {
+      fill: var(--text-color-light)
+    }
   }
 }
-
 
 /* ---------------------------------Animations-----------------------------------*/
 
