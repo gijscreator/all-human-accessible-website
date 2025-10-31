@@ -21,13 +21,14 @@
   --font-size-labels: .7rem;
   --font-size-headings: 2rem;
   --font-size-body: 1rem;
-  --active-svg: green;
+  --active-svg: rgba(41, 255, 80, 1);
   --active-link: rgba(41, 255, 80, 1);
 
 }
 
 
-/* box-sizing*/
+/* ---------------------------------General styling-----------------------------------*/
+
 *,
 *::before,
 *::after {
@@ -875,7 +876,15 @@ h2 {
   }
 }
 
+/* ---------------------------------Snappmap-----------------------------------*/
 
+.capture-button {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  background-color: var(--active-svg);
+  border: none;
+}
 
 /* ---------------------------------Animations-----------------------------------*/
 
