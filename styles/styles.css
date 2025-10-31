@@ -878,13 +878,20 @@ h2 {
 
 /* ---------------------------------Snappmap-----------------------------------*/
 
-.capture-button {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-  background-color: var(--active-svg);
-  border: none;
+.capture-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .capture-button {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background-color: var(--active-svg);
+    border: none;
+  }
 }
+
 
 /* ---------------------------------Animations-----------------------------------*/
 
