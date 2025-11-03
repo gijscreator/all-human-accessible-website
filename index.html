@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-dark-mode.css">
     <title>Snappthis</title>
 </head>
 <body>
@@ -36,16 +36,44 @@
                     </form>
                 </li>
                 <li class="grid-view">
-                    <button class="grid-list-toggle">
-                        Toggle list
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15 4.5H6C5.60218 4.5 5.22064 4.65804 4.93934 4.93934C4.65804 5.22064 4.5 5.60218 4.5 6V15C4.5 15.3978 4.65804 15.7794 4.93934 16.0607C5.22064 16.342 5.60218 16.5 6 16.5H15C15.3978 16.5 15.7794 16.342 16.0607 16.0607C16.342 15.7794 16.5 15.3978 16.5 15V6C16.5 5.60218 16.342 5.22064 16.0607 4.93934C15.7794 4.65804 15.3978 4.5 15 4.5ZM13.5 13.5H7.5V7.5H13.5V13.5ZM21 16.5H30C30.3978 16.5 30.7794 16.342 31.0607 16.0607C31.342 15.7794 31.5 15.3978 31.5 15V6C31.5 5.60218 31.342 5.22064 31.0607 4.93934C30.7794 4.65804 30.3978 4.5 30 4.5H21C20.6022 4.5 20.2206 4.65804 19.9393 4.93934C19.658 5.22064 19.5 5.60218 19.5 6V15C19.5 15.3978 19.658 15.7794 19.9393 16.0607C20.2206 16.342 20.6022 16.5 21 16.5ZM22.5 7.5H28.5V13.5H22.5V7.5ZM4.5 30C4.5 30.3978 4.65804 30.7794 4.93934 31.0607C5.22064 31.342 5.60218 31.5 6 31.5H15C15.3978 31.5 15.7794 31.342 16.0607 31.0607C16.342 30.7794 16.5 30.3978 16.5 30V21C16.5 20.6022 16.342 20.2206 16.0607 19.9393C15.7794 19.658 15.3978 19.5 15 19.5H6C5.60218 19.5 5.22064 19.658 4.93934 19.9393C4.65804 20.2206 4.5 20.6022 4.5 21V30ZM7.5 22.5H13.5V28.5H7.5V22.5ZM19.5 30C19.5 30.3978 19.658 30.7794 19.9393 31.0607C20.2206 31.342 20.6022 31.5 21 31.5H30C30.3978 31.5 30.7794 31.342 31.0607 31.0607C31.342 30.7794 31.5 30.3978 31.5 30V21C31.5 20.6022 31.342 20.2206 31.0607 19.9393C30.7794 19.658 30.3978 19.5 30 19.5H21C20.6022 19.5 20.2206 19.658 19.9393 19.9393C19.658 20.2206 19.5 20.6022 19.5 21V30ZM22.5 22.5H28.5V28.5H22.5V22.5Z" fill="white"/>
-                        </svg>
-
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 6H21M8 12H21M8 18H21M3 6H3.01M3 12H3.01M3 18H3.01" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
+                    <details>
+                         <summary id="anchor">Select your view</summary>
+                    </summary>
+                    <ul class="gridlist">
+                        <li>
+                            <button class="grid-list-toggle">
+                                <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 15.6038H15.6038V0H0V15.6038V15.6038ZM0 36H15.6038V20.3962H0V36V36ZM20.6842 36H36.288V20.3962H20.6842V36V36ZM20.6842 15.6038H36.288V0H20.6842V15.6038V15.6038Z" fill="#172F3B"/>
+                                </svg>
+                                <p>Extra grid</p>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="grid-list-toggle">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9H9V0H0V9V9ZM13.5 36H22.5V27H13.5V36V36ZM0 36H9V27H0V36V36ZM0 22.5H9V13.5H0V22.5V22.5ZM13.5 22.5H22.5V13.5H13.5V22.5V22.5ZM27 0V9H36V0H27V0ZM13.5 9H22.5V0H13.5V9V9ZM27 22.5H36V13.5H27V22.5V22.5ZM27 36H36V27H27V36V36Z" fill="#172F3B"/>
+                                </svg>
+                                <p>Large grid</p>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="grid-list-toggle">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.88848H5.88848V0H0V5.88848V5.88848ZM10.0372 25.9628H15.9257V20.0744H10.0372V25.9628V25.9628ZM10.0372 36H15.9257V30.1115H10.0372V36V36ZM0 25.9628H5.88848V20.0744H0V25.9628V25.9628ZM0 36H5.88848V30.1115H0V36V36ZM0 15.9257H5.88848V10.0372H0V15.9257V15.9257ZM15.9257 15.9257V10.0372H10.0372V15.9257H15.9257ZM20.0744 0V5.88848H25.9628V0H20.0744V0ZM30.1115 5.88848H36V0H30.1115V5.88848ZM15.9257 5.88848V0H10.0372V5.88848H15.9257ZM20.0744 15.9257H25.9628V10.0372H20.0744V15.9257V15.9257ZM36 15.9257V10.0372H30.1115V15.9257H36ZM20.0744 25.9628H25.9628V20.0744H20.0744V25.9628V25.9628ZM20.0744 36H25.9628V30.1115H20.0744V36V36ZM30.1115 25.9628H36V20.0744H30.1115V25.9628V25.9628ZM30.1115 36H36V30.1115H30.1115V36V36Z" fill="#172F3B"/>
+                            </svg>
+                               <p>Medium grid</p>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="grid-list-toggle">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.60465H4.60465V0H0V4.60465V4.60465ZM7.84884 20.3023H12.4535V15.6977H7.84884V20.3023V20.3023ZM7.84884 28.1512H12.4535V23.5465H7.84884V28.1512V28.1512ZM7.84884 36H12.4535V31.3953H7.84884V36V36ZM0 20.3023H4.60465V15.6977H0V20.3023V20.3023ZM0 28.1512H4.60465V23.5465H0V28.1512V28.1512ZM0 36H4.60465V31.3953H0V36V36ZM0 12.4535H4.60465V7.84884H0V12.4535V12.4535ZM12.4535 12.4535V7.84884H7.84884V12.4535H12.4535ZM15.6977 0V4.60465H20.3023V0H15.6977V0ZM23.5465 4.60465H28.1512V0H23.5465V4.60465ZM31.3953 4.60465H36V0H31.3953V4.60465ZM12.4535 4.60465V0H7.84884V4.60465H12.4535ZM15.6977 12.4535H20.3023V7.84884H15.6977V12.4535V12.4535ZM28.1512 12.4535V7.84884H23.5465V12.4535H28.1512ZM36 12.4535V7.84884H31.3953V12.4535H36ZM15.6977 20.3023H20.3023V15.6977H15.6977V20.3023V20.3023ZM15.6977 28.1512H20.3023V23.5465H15.6977V28.1512V28.1512ZM15.6977 36H20.3023V31.3953H15.6977V36V36ZM23.5465 20.3023H28.1512V15.6977H23.5465V20.3023V20.3023ZM31.3953 20.3023H36V15.6977H31.3953V20.3023V20.3023ZM23.5465 28.1512H28.1512V23.5465H23.5465V28.1512V28.1512ZM23.5465 36H28.1512V31.3953H23.5465V36V36ZM31.3953 28.1512H36V23.5465H31.3953V28.1512V28.1512ZM31.3953 36H36V31.3953H31.3953V36V36Z" fill="#172F3B"/>
+                            </svg>
+                               <p>Small grid</p>
+                            </button>
+                        </li>
+                    </ul>
+                    </details>
                 </li>
                 <li class="account-icon">
                     <h4 class="header-text-icon">Mijn Acount</h4>
@@ -61,11 +89,16 @@
     <main class="main-home">
         <section>
             <h2 class="sr-only"> Overzicht van snapps</h2>
-            <article class="images ">
-                <h2> Nieuw in mijn snappmaps</h2>
-                    <ul class="images-list">
-                    <!-- Hier komt de geinjecteerde grid / list view -->
-                    </ul>
+            <article class="snappmap-icon">
+                <svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.303 31.8182L0 42.4242V10.6061H39.3939V42.4242L23.1818 25.7576L13.7879 35.303L10.303 31.8182ZM43.9394 6.06061H10.6061V0H50V31.8182H43.9394V6.06061Z" fill="#224455"/>
+                </svg>
+                <h3 id="detail-group">Mooi</h3>
+            </article>
+            <article class="images">
+                <ul class="images-list">
+                <!-- Hier komt de geinjecteerde grid / list view -->
+                </ul>
             </article>
         </section>
     </main>
