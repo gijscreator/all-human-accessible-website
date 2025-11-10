@@ -20,7 +20,7 @@
   --background-list-items: #EEEEEE;
   --text-color-light: #224455;
   --text-color-dark: white;
-  --active-svg: rgba(41, 255, 80, 1);
+  --active-svg: #29ff50;
   --active-link: rgba(41, 255, 80, 1);
 
   /* font-sizes */
@@ -33,7 +33,6 @@
   
   /* Sizes */
   --icon-width: 25px;
-
 
 }
 
