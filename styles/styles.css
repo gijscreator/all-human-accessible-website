@@ -251,12 +251,17 @@ details {
     width: 100vw;
   }
 
-    summary::-webkit-details-marker {
-      display: none;
-    }
-    summary::marker {
-      content: none;
-    }
+  /* issue voor safari gefixt */
+  
+  details summary {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+  }
+
+  summary::marker {
+    content: none;
+  }
 
   button>img {
     width: 15px;
